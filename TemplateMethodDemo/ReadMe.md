@@ -16,10 +16,12 @@ This package contains "VeggieSandwich" class which will prepare Veggie Sandwiche
 This package contains "SandwichMaker" class whose function is to demonstrate that derived make sandwiches as expected.
 
 
+
 TEMPLATE METHOD:
 ----------------
 Template Method Design Pattern is a code architecture model in which multiple classes are derived from an abstract class, which is the template. This model is very useful in the situations where the methods of the derived classes are functionally similar but might slightly vary in implementation. 
 Ex: A Barbeque Chicken Sandwich has slightly different ingredents from an Italian Sandwich, but both the sandwiches are prepared in the same way.
+
 
 
 Characteristics of template method include:
@@ -32,6 +34,8 @@ Sometimes we have non-overridable (constant) methods in the Template Class. They
 Even though we use hooks to not use some of the methods, still we need to implement/override all the abstract methods.
 
 
+
 Related Patterns:
+
 1. Factory Method Pattern
 2. Strategy Pattern

@@ -23,6 +23,7 @@ Ex: A Barbeque Chicken Sandwich has slightly different ingredents from an Italia
 
 
 Characteristics of template method include:
+
 1. Abstract Methods
 The abstract methods are present in the template class. Being abstract forces the derived classes to implement/override these methods.
 

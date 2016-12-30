@@ -32,3 +32,11 @@ Even though we use hooks to not use some of the methods, still we need to implem
 Related Patterns:  
  - Factory Method Pattern  
  - Strategy Pattern  
+
+USAGE :
+-------
+- Visual Studio
+Requires Visual Studio 2015. Simply Build and Execute the HomeTheaterFacade Package.
+
+- Linux
+Requires g++ 4.8 or above. Execute compile.sh to compile and then execute "SandwichDemo.out" to run the demo code.

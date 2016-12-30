@@ -2,23 +2,23 @@ INTRODUCTION:
 -------------
 
 This project demonstrates the usage of State Design Pattern. This project consists of following packages:  
-- VendingMachineState
+- VendingMachineState  
 VendingMachineState package provides a Template for all the States that we plan to add to the Vending Machine. This class contains Virtual Functions only since no state specific attributes are required in this Vending Machine. The Functions  
 present in this class will be overridden by the associated Concrete States. 
 
-- InsertCash
+- InsertCash  
 This class is a Concrete State which will represent the State when the user is inserting / has inserted the money. We will be overriding "InsertCashState" function in this class. 
 
-- NoCash
+- NoCash  
 This class is a Concrete State which will represent the State when the Vending Machine is Idle. We will be overriding "NoCashState" function in this class. 
 
-- VendingItem
+- VendingItem  
 This class is a Concrete State which will represent the State when the Vending Machine is Vending an Item. We will be overriding "VendingItemState" function in this class. 
 
-- OutOfOrder
+- OutOfOrder  
 This class is a Concrete State which will represent the State when the Vending Machine is Out Of Order. We will be overriding "OutOfOrderState" function in this class. (This Class has not been used in this project) 
 
-- VendingMachine 
+- VendingMachine   
 This package emulates State Based Vending Machine. For Each Action it Leverages Feature/Methods Present in a Specific State to Attain it's Objective. 
 
 
